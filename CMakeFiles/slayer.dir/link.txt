@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -g  -shared -Wl,-soname,libslayer.so -o lib/libslayer.so CMakeFiles/slayer.dir/log.cpp.o CMakeFiles/slayer.dir/util.cpp.o CMakeFiles/slayer.dir/thread.cpp.o 

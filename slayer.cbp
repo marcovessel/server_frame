@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="slayer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vessel/c++/slayer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vessel/c++/slayer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vessel/c++/slayer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/vessel/c++/slayer/bin/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vessel/c++/slayer/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/vessel/c++/slayer/bin/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vessel/c++/slayer/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slayer">
+				<Option output="/home/vessel/c++/slayer/lib/libslayer.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vessel/c++/slayer"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 slayer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slayer/fast">
+				<Option output="/home/vessel/c++/slayer/lib/libslayer.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vessel/c++/slayer"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 slayer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vessel/c++/slayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vessel/c++/slayer/log.cpp">
+			<Option target="slayer"/>
+		</Unit>
+		<Unit filename="/home/vessel/c++/slayer/log.h">
+			<Option target="slayer"/>
+		</Unit>
+		<Unit filename="/home/vessel/c++/slayer/singleton.h">
+			<Option target="slayer"/>
+		</Unit>
+		<Unit filename="/home/vessel/c++/slayer/tests/test.cc">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/vessel/c++/slayer/thread.cpp">
+			<Option target="slayer"/>
+		</Unit>
+		<Unit filename="/home/vessel/c++/slayer/thread.h">
+			<Option target="slayer"/>
+		</Unit>
+		<Unit filename="/home/vessel/c++/slayer/util.cpp">
+			<Option target="slayer"/>
+		</Unit>
+		<Unit filename="/home/vessel/c++/slayer/util.h">
+			<Option target="slayer"/>
+		</Unit>
+		<Unit filename="/home/vessel/c++/slayer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

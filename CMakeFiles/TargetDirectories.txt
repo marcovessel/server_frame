@@ -1,0 +1,4 @@
+/home/vessel/c++/slayer/CMakeFiles/rebuild_cache.dir
+/home/vessel/c++/slayer/CMakeFiles/edit_cache.dir
+/home/vessel/c++/slayer/CMakeFiles/test.dir
+/home/vessel/c++/slayer/CMakeFiles/slayer.dir

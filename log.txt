@@ -1,0 +1,2 @@
+2022-04-30 16:55:41	test marco error
+2022-04-30 16:55:41	test marco fmt error aa
